@@ -1,0 +1,127 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Art History Website</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="Final Project 1.html">Home</a></li>
+                <li><a href="Interior Page 1.html">Post-Modernism</a></li>
+                <li><a href="#food">Pop & Opt Art</a></li>
+                <li><a href="#food-menu">Minimalism</a></li>
+                <li><a href="#testimonials">New Media Art</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="Header">
+        <br>
+        <h1> Art History Website</h1>
+        <h2>
+         Welcome to Our Site </h2>
+         <br>
+         <br>
+         </div>
+
+
+    <div id="Main">
+        <h2> Opening Info </h2>
+        <p> 
+        Information on our site..
+        <br>
+        </p>
+
+        <p>
+        <div class="homepage-image-container">
+            <div class="homepage-images"><img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pop_Art_2022_Enjoyment.png/640px-Pop_Art_2022_Enjoyment.png" width="500" height="600"></div>
+
+            <div class="homepage-images"><img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/%27The_Visitor%27%2C_120x100cm%2C_Oil_on_Belgian_linen_by_Hennie_Niemann_jnr_signed_and_dated_lower_left%2C_2019.jpg/640px-%27The_Visitor%27%2C_120x100cm%2C_Oil_on_Belgian_linen_by_Hennie_Niemann_jnr_signed_and_dated_lower_left%2C_2019.jpg"></div>
+
+            <div class="homepage-images"><img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pop_Art_2022_Mind_and_Brain.png/640px-Pop_Art_2022_Mind_and_Brain.png"></div>
+        </div>
+        </div>
+        
+        <div id="Additional">
+        <h2> Additional Info </h2>
+
+        <p> 
+            <script>
+                async function onClickSubmit() 
+                    {
+            
+                    var url =("https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv");
+                    var response = await fetch(url);
+                    var jsonData = await response.json();   
+                    button == document.getElementById("objectID");
+            
+                    var res = ""
+                    for (const departments of jsonData); {
+                        let button = (departments.Modern_art) 
+                        let res = (departments.primaryImage)  + "<br>" 
+                        }
+                        
+                    }
+                    document.getElementById("result").innerHTML = "";
+                    
+                
+            </script>
+            
+            <h3> Check Out This Painting </h3>
+            <button type ="button" id="Submit" onClick="onClickSubmit()"> Check Out This Painting </button>
+            
+            <div id="result"> </div> 
+        </p>
+        <br>
+        <br>
+    </div>
+            
+    <div>
+        <div id="left">
+            <h2>Resources</h2>
+                <p>
+                    <ul>
+                        <li><a href= "https://www.pratt.edu/about/visit-pratt/">About Pratt Institute</a></li> 
+                        <li><a href= "https://www.moma.org/">Museum of Modern Art</a></li>
+                        <li><a href="https://www.google.com/">Google</a></li>
+                        <li><a href="https://www.apple.com/">Apple</a></li>
+                    </ul>
+                </p>
+    </div>
+        
+        <div id="right">
+            <h2>
+                Get Involved
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+<br>          
+<hr>
+
+    <footer>
+    <div id="footer">
+    <hr>
+        <p>
+    &copy; Julia J. Maloof, Sayali Nikumbh, Melanie Myers 2022
+    </p>
+</footer>
+    </div>
+ 
+</body>
+</html>
